@@ -197,3 +197,29 @@ ul li {
    justify-content: center;
    align-items: center;
 }
+
+
+@media (max-width: 767px) {
+
+   /* For screens smaller than 768px (e.g. tablets) */
+   .container {
+      width: 320px;
+
+   }
+
+   li {
+      width: 300px;
+   }
+
+   .done-Task .done-task-count {
+
+      width: 25%;
+   }
+
+   input[type="text"] {
+      width: 100%;
+      margin-left: 0;
+
+
+   }
+}
