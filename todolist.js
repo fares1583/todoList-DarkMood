@@ -98,7 +98,7 @@ function addEleToPage(arr) {
 
     let doneImg = document.createElement("img");
     doneImg.className = "done-button";
-    doneImg.src = "./images/check.svg";
+    doneImg.src = "images/check.svg";
 
     let innerDiv = document.createElement("div");
     console.log(li.classList.contains("done"));
